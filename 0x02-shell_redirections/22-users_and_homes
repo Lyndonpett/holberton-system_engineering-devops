@@ -1,2 +1,2 @@
 #!/bin/bash
-awk -F":" '{new_var=$1":"$6; print new_var}' /etc/passwd | sort -k1
+getent passwd | cut -d: -f6
