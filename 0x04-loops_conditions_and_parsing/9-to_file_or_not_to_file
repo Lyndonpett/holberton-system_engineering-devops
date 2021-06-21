@@ -14,8 +14,6 @@ if [ -e "$file" ];then
 
 	if [ -f $file ]; then
 		echo "$file is a regular file"
-	else
-		echo " "
 	fi
 else 
     echo "$file does not exist."
