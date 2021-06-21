@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 #This is a Bash script that displays the content of the current directory.
 
-for file in ./* 
+for file in * 
 do
 	echo "$file" | rev | cut -d '-' -f1 | rev 
 done
