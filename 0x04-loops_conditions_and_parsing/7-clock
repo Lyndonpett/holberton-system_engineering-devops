@@ -1,0 +1,18 @@
+#!/usr/bin/env bash
+#This script will display a clock for 12 hours and 59 minutes.
+
+h=0
+m=1
+
+while [ "$h" -lt 13 ]
+do 
+	echo "Hour: $h"
+	((h++))
+	m=1
+	while [ "$m" -lt 60 ]
+	do
+		echo "$m"
+		((m++))
+	done
+
+done
