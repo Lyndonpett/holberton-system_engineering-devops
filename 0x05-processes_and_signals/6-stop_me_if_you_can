@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+#This script kills the file 4.
+
+pkill -15 -f 4-to_infinity_and_beyond
