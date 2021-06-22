@@ -1,4 +1,4 @@
 #!/usr/bin/env bash
 #This script shows all processes.
 
-ps ux
+ps aux
