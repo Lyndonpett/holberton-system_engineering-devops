@@ -1,0 +1,6 @@
+host lyndonpett
+		HostName 104.196.102.107
+		User ubuntu
+		PasswordAuthentication No
+		StrictHostKeyChecking No
+		IdentityFile ~/.ssh/school
