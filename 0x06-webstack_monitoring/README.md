@@ -1,0 +1,1 @@
+# This directory is for learning to use Monitoring on a server.
