@@ -1,10 +1,10 @@
 #!/usr/bin/env bash
-# Looking up info from sites
+# Looking up infor from sites
 
 printInfo() {
-	recordAndIP=$(dig $2.$1 | grep -A1 'ANSWER SECTION:' | awk '{print $4,$5}')
+	recordAndIp=$(dig $2.$1 | grep -A1 'ANSWER SECTION:' | awk '{print $4,$5}')
 	record=$(echo $recordAndIp | awk '{print $1}')
-    ip=$(echo $recordAndIp | awk '{print $2}')
+        ip=$(echo $recordAndIp | awk '{print $2}')
 	echo "The subdomain $2 is a $record record and points to $ip"
 }
 
